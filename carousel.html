@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Carousel</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="carousel.js" defer></script>
+</head>
+
+<body>
+	<section class="carousel">
+		<ul class="slide-wrapper">
+			<!-- slide 1 -->
+			<li class="slide">
+				<img src="https://source.unsplash.com/random?landscape,mountain" alt="" />
+			</li>
+
+			<!-- slide 2 -->
+			<li class="slide">
+				<img src="https://source.unsplash.com/random?landscape,cars" alt="" />
+			</li>
+
+			<!-- slide 3 -->
+			<li class="slide">
+				<img src="https://source.unsplash.com/random?landscape,night" alt="" />
+			</li>
+
+			<!-- slide 4 -->
+			<li class="slide">
+				<img src="https://source.unsplash.com/random?landscape,city" alt="" />
+			</li>
+
+			<li class="dots">
+			</li>
+
+			<button class="btn btn-next" aria-label="successiva">
+				&raquo;
+			</button>
+			<button class="btn btn-prev" aria-label="precedente">
+				&laquo;
+			</button>
+		</ul>
+
+		<div class="controls">
+			<button class="play-pause" aria-live="polite" aria-pressed="false" aria-label="play">&#x25b6;</button>
+		</div>
+	</section>
+</body>
+
+</html>
